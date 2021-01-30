@@ -6,10 +6,10 @@ export default class HomePage extends Component {
     return (
       <div className="homePage-container">
         <section className="title">
-          <h1> The Hive Audio Engineering </h1>
+          <h1> The Hive Audio</h1>
           <h3> Extended features may not work in Demo Mode.</h3>
           <p>
-            We are Audio Engineers and Produces that help musicians get their
+            We are Audio Engineers and Producers that help musicians get their
             music out to the people! <br />
             Once logged in you'll be able to select from one of our Audio
             Engineers. Just select the name of the Engineer, pick your Service
