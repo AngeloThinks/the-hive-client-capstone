@@ -1,29 +1,29 @@
 import React, { Component } from 'react'
 
 const AppointmentContext = React.createContext({
-  walkerInfo: [],
+  engineerInfo: [],
   serviceSelected: '',
   timeSelected: '',
   error: null,
   delete: () => { },
   setError: () => { },
   clearError: () => { },
-  setWalkerInfo: () => { },
+  setEngineerInfo: () => { },
   setSelectTime: () => { },
   setServiceType: () => { }
 })
 export default AppointmentContext
 export  class AppointmentProvider extends Component {
   state = {
-    walkerInfo: [],
+    engineerInfo: [],
     serviceSelected: '',
     timeSelected: '',
     error: null,
     }
 
   
-  setWalkerInfo = walkerInfo => {
-    this.setState({ walkerInfo })
+  setEngineerInfo = engineerInfo => {
+    this.setState({ engineerInfo })
   }
   setServiceType = serviceSelected => {
     return this.setState({ serviceSelected})
@@ -41,7 +41,7 @@ export  class AppointmentProvider extends Component {
   }
 
   render() {
-    const { walkerInfo,
+    const { engineerInfo,
       serviceSelected,
       timeSelected,
       error,
@@ -49,11 +49,11 @@ export  class AppointmentProvider extends Component {
     } = this.state
 
     const value = {
-      walkerInfo,
+      engineerInfo,
       serviceSelected,
       timeSelected,
       error,
-      setWalkerInfo: this.setWalkerInfo,
+      setEngineerInfo: this.setEngineerInfo,
       setServiceType: this.setServiceType,
       setTimeSelected : this.setTimeSelected,
       setError: this.setError,

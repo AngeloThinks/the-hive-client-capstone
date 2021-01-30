@@ -10,14 +10,14 @@ export default function LandingPage() {
       <div className='homePage-container'>
         {TokenService.hasAuthToken() ? <Redirect to="/homePage" /> : <></>}
         <section className='title'>
-        <h1> Dogwalking</h1>
-        <h3> Welcome to the next day dogwalking service!</h3>
+        <h1> The Hive</h1>
+        <h3> Taking care of your Audio Engineering services!</h3>
         <h2> Demo credentials : demouser/demopassworD1! </h2>
         <p>
-        We are a service to help people walk their dogs during these uneasy times of COVID. <br />
-        Once logged in you'll be able to select from one of our walkers!
-        Just select the name of the walker, pick your Service and Time, then check your profile.
-        Your appointment will be updated! So Login or Sign up and we will take care of all of your dogwalks!!
+        We are Audio Engineers and Produces that help musicians get their music out to the people! <br />
+        Once logged in you'll be able to select from one of our Audio Engineers.
+        Just select the name of the Engineer, pick your Service and Time, then check your profile.
+        Your appointment will be updated! So Login or Sign up and we can take care of your incomplete albums!
          </p> 
           <div className='homePagebutton-container'>
             <button className='homePage-button'>

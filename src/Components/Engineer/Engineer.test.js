@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import WalkerPage from './WalkerPage'
+import  Engineer from './Engineer'
 
 
-it('renders WalkerPage without crashing', () => {
+
+it('renders Engineer without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(
     <BrowserRouter>
-      <WalkerPage />
+      <Engineer  engineer={{engineer:{}}}/>
     </BrowserRouter>, div)
   ReactDOM.unmountComponentAtNode(div)
 })

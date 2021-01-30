@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import { SideNavButton } from '../Utilitys/Utils'
+import { SideNavButton } from '../Utilities/Utils'
 import UserContext from '../../contexts/UserContext'
 import './NavBar.css'
 
@@ -14,7 +14,7 @@ export default class NavBar extends Component {
     return (
       <nav className='NavBar'>
         <div className='logo'>
-          <Link to="/">Pandemic Dog Walking</Link>
+          <Link to="/">The Hive Audio</Link>
         </div>
         <div className='spacer' />
         <div className='right-nav'>
@@ -30,8 +30,8 @@ export default class NavBar extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/Walkers">
-                Walkers
+              <Link to="/Engineers">
+                Engineers
               </Link>
             </li>
             <li>

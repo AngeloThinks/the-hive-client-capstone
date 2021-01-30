@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export default class Walker extends Component {
+export default class Engineer extends Component {
 
     render() {
-        const { walker } = this.props
+        const { engineer } = this.props
         return (
-            <div className='Walker-wrapper'>
+            <div className='Engineer-wrapper'>
                 <li>
-                    <Link to={`/WalkersProfile/${walker.id}`}>
-                        {walker.first_name}
+                    <Link to={`/EngineersProfile/${engineer.id}`}>
+                        {engineer.first_name}
                     </Link>
                     <h4>Available next day</h4>
                     <p>Next day @ 7 a.m</p>

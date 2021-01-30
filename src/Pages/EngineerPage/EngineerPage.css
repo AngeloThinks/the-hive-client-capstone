@@ -1,25 +1,25 @@
 
-.Walker-section{
+.Engineer-section{
     color: var(--white);
     background-color:var(--blackish);
     display:flex;
     padding-top:70px;
     flex-direction: column;
 }
-.Walker-section h1{
+.Engineer-section h1{
     color:var(--white);
 }
 
-.Walker-section ul{
+.Engineer-section ul{
     padding-left:10px;
     overflow:scroll;
 }
 
-.Walker-section p {
+.Engineer-section p {
     margin: 0;
     font-size: 18px;
 }
-.Walker-section ul li{
+.Engineer-section ul li{
     list-style: none;
     max-width: 300px;
     text-align: left;
@@ -29,16 +29,16 @@
     display: flex;
     flex-direction: column;
 }
-.Walker-section a {
+.Engineer-section a {
     margin-top:8px;
     font-size: 22px;
     text-decoration: none;
     color:white
 }
-.Walker-section a:hover,
-.Walker-section a:active{
+.Engineer-section a:hover,
+.Engineer-section a:active{
     color: rgba(255, 0, 0, 0.502)
 }
-.Walker-wrapper{
+.Engineer-wrapper{
     margin-top:15px;
 }

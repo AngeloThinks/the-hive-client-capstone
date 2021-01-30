@@ -6,10 +6,10 @@
     background-repeat: no-repeat;
     background-position: bottom;
     justify-content: center;
-    background-image: url('dog.jpeg');
+    background-image: url('compressors.jpeg');
 
 }
-.registation-section {
+.registration-section {
     color: white;
     background-color: var(--blackish);
     width: 100%;
@@ -20,7 +20,7 @@
     padding: 50px 80px;
     max-width: 500px;
 }
-.registation-section h3{
+.registration-section h3{
     font-size: 36px;
     margin: 0;
     padding:10px 0;
@@ -38,7 +38,7 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
-.registation-section button {
+.registration-section button {
     padding-top: 20px;
     font-size: 22px;
     font-weight: 600;
@@ -49,18 +49,18 @@
 }
 
 
-.registation-section button:hover {
+.registration-section button:hover {
     cursor: pointer;
     color: rgba(255, 0, 0, 0.502)
 }
 
 @media only screen and (max-width: 380px) {
-   .registation-section{
+   .registration-section{
        padding:50px 20px;
    }
   }
 @media only screen and (max-width: 500px) {
-    .registation-section{
+    .registration-section{
        padding:50px 30px;
    }
   }

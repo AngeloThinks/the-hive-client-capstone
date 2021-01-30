@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 
-import WalkerApiService from '../../services/walker-api-service';
+import EngineerApiService from '../../services/engineer-api-service';
 import { Link } from 'react-router-dom'
 import './Utils.css'
 
 export class ServiceButtons extends Component {
     state = {
-        walkerServices: [],
+        engineerServices: [],
         error:null,
     }
     componentDidMount() {
-        WalkerApiService.getWalkerServices()
+        EngineerApiService.getEngineerServices()
             .then(services => {
-                return this.setState({ walkerServices: services })
+                return this.setState({ engineerServices: services })
 
             })
     }
@@ -22,12 +22,12 @@ export class ServiceButtons extends Component {
     }
 
     renderServices() {
-        return this.state.walkerServices.map(walker => {
+        return this.state.engineerServices.map(engineer => {
             return <button className='service-buttons'
-                onClick={(e) => this.handleSelectServiceType(e, walker)}
-                key={walker.id} >
-                <h3>{walker.type}</h3>
-                <p>{walker.price} 30min</p>
+                onClick={(e) => this.handleSelectServiceType(e, engineer)}
+                key={engineer.id} >
+                <h3>{engineer.type}</h3>
+                <p>{engineer.price} 30min</p>
             </button>
         })
     }
@@ -126,8 +126,8 @@ export class SideNavDrawer extends Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/Walkers">
-                            Walkers
+                        <Link to="/Engineers">
+                            Engineers
                         </Link>
                     </li>
                     <li>
@@ -168,11 +168,11 @@ export class Backdrop extends Component {
 export function ServiceList(props) {
     
      const renderServices = () => {
-        return props.walkerServices.map((walker, key) => {
+        return props.engineerServices.map((engineer, key) => {
             return <ul key={key}>
-                <li id={walker.id} >
+                <li id={engineer.id} >
                     <p>
-                        {walker.type}........{walker.price}
+                        {engineer.type}........{engineer.price}
                     </p>
                 </li>
             </ul>

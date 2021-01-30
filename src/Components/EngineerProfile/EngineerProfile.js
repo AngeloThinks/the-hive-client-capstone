@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
 import AppointmentApiService from '../../services/appointment-api-service'
-import WalkerApiService from '../../services/walker-api-service'
-import { Spinner } from '../Utilitys/Utils'
+import EngineerApiService from '../../services/engineer-api-service'
+import { Spinner } from '../Utilities/Utils'
 
-import { TimeButtons, ServiceButtons } from '../Utilitys/Utils'
-import './WalkerProfile.css'
+import { TimeButtons, ServiceButtons } from '../Utilities/Utils'
+import './EngineerProfile.css'
 
-export default class WalkerProfile extends Component {
+export default class EngineerProfile extends Component {
     state = {
-        walkerInfo: [],
+        engineerInfo: [],
         serviceSelected: '',
         timeSelected: '',
         hasError: false,
@@ -24,10 +24,10 @@ export default class WalkerProfile extends Component {
         },
     }
     componentDidMount() {
-        const { walkerid } = this.props.match.params
-        WalkerApiService.getWalker(walkerid)
+        const { engineerid } = this.props.match.params
+        EngineerApiService.getEngineer(engineerid)
             .then(data => {
-                return this.setState({ walkerInfo: data ,
+                return this.setState({ engineerInfo: data ,
                 loader:false})
             })
             .catch(err=>{
@@ -60,12 +60,12 @@ export default class WalkerProfile extends Component {
 
         const { timeSelected, serviceSelected } = this.state
 
-        const { id } = this.state.walkerInfo
+        const { id } = this.state.engineerInfo
 
         const newAppointment = {
             time: timeSelected,
             services_id: serviceSelected,
-            walker_id: id
+            engineer_id: id
         }
         this.setState({ error: null })
         AppointmentApiService.postAppointment(newAppointment)
@@ -82,7 +82,7 @@ export default class WalkerProfile extends Component {
 
 
     render() {
-        const { first_name } = this.state.walkerInfo
+        const { first_name } = this.state.engineerInfo
         const { error } = this.state
         return (
             <div className='profile-container'>

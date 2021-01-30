@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import { ServiceButtons } from '../Utilitys/Utils'
+import EngineerProfile from './EngineerProfile'
 
 
-it('renders Utils without crashing', () => {
+it('renders EngineerProfile without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(
     <BrowserRouter>
-      <ServiceButtons/>
+      <EngineerProfile />
     </BrowserRouter>, div)
   ReactDOM.unmountComponentAtNode(div)
 })

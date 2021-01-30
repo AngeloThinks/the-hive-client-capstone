@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 
-const WalkerListContext = React.createContext({
-    walkerList: [],
+const EngineerListContext = React.createContext({
+    engineerList: [],
     error: null,
     setError: () => { },
     clearError: () => { },
-    setWalkerList: () => { }
+    setEngineerList: () => { }
 })
-export default WalkerListContext
-export class WalkerListProvider extends Component {
+export default EngineerListContext
+export class EngineerListProvider extends Component {
     state = {
-        walkerList: [],
+        engineerList: [],
         error: null,
     }
-    setWalkerList = walkerList => {
-        this.setState({ walkerList })
+    setEngineerList = engineerList => {
+        this.setState({ engineerList })
     }
     setError = error => {
         console.error(error)
@@ -26,21 +26,21 @@ export class WalkerListProvider extends Component {
     }
 
     render() {
-        const { walkerList,
+        const { engineerList,
                 error,
                } = this.state
         
         const value = {
-            walkerList,
+            engineerList,
             error,
-            setWalkerList:this.setWalkerList,
+            setEngineerList:this.setEngineerList,
             setError:this.setError,
             clearError:this.clearError
         }
         return (
-            <WalkerListContext.Provider value={value}>
+            <EngineerListContext.Provider value={value}>
                {this.props.children}
-            </WalkerListContext.Provider>
+            </EngineerListContext.Provider>
         )
     }
 }

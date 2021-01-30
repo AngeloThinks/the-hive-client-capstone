@@ -1,9 +1,9 @@
 import config from '../config'
 import TokenService from './token-service'
 
-const WalkerApiService = {
-    getAllWalkers(){
-        return fetch(`${config.API_ENDPOINT}/walker`,{
+const EngineerApiService = {
+    getAllEngineers(){
+        return fetch(`${config.API_ENDPOINT}/engineer`,{
             headers:{     
             },
         })
@@ -13,8 +13,8 @@ const WalkerApiService = {
                   :res.json()
             )
     },
-    getWalker(walkerId){
-        return fetch(`${config.API_ENDPOINT}/walker/${walkerId}`,{
+    getEngineer(engineerId){
+        return fetch(`${config.API_ENDPOINT}/engineer/${engineerId}`,{
             headers:{
                 'Authorization': `bearer ${TokenService.getAuthToken()}`
             },
@@ -26,7 +26,7 @@ const WalkerApiService = {
         )
     },
 
-    getWalkerServices(){
+    getEngineerServices(){
         return fetch(`${config.API_ENDPOINT}/services`,{
         headers:{
             },
@@ -39,4 +39,4 @@ const WalkerApiService = {
     }
 }
 
-export default WalkerApiService
+export default EngineerApiService
