@@ -1,12 +1,12 @@
-# Zeid Dog Walker Capstone
+# The Hive Capstone
 
 ---------------------------------------------------------------------------------
 
- Live Demo: https://covid-frontend-master.zeidalidiez.vercel.app/
+ Live Demo: 
+
+ Server Repo: 
  
- Server Repo: https://github.com/zeidalidiez/covid-api-master
- 
- Client Repo: https://github.com/zeidalidiez/covid-frontend-master
+ Client Repo: 
  
 user_name: 'demouser',
 password: 'demopassworD1!'
@@ -14,7 +14,7 @@ password: 'demopassworD1!'
 ---------------------------------------------------------------------------------
 ## About:
 
-We are a service to help people walk their dogs during these uneasy times of COVID.  Once logged in you'll be able to select from one of our walkers!  Just select the name of the walker, pick your Service and Time, then check your profile.  Your appointment will be updated! So Login or Sign up and we will take care of all of your dogwalks!!
+The Hive is a service for musicians that are too busy to do it all. There's production, practicing, mixing, and mastering. Hive is here to help the user utilize the services of our Audio Engineers and Producers. This app will allow users to book a session with the Engineer of their choice through an appointment system.
 
 ---------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ We are a service to help people walk their dogs during these uneasy times of COV
 
 ### '/' the Landing page route
 
-![Landing](screenshots/LandingPage.png)
+![Landing]()
 
 This is the first page users will land on. Where they can see a demo of our site, sign up, and log in.
 
@@ -55,7 +55,7 @@ This is where users can sign up in order to get an authenticated JWT to access t
 
 ### '/login' login page route 
 
-![Login](screenshots/Login.png)
+![Login]()
 
 This is where users can login with Username and Password to sign into the app.
 
@@ -63,7 +63,7 @@ This is where users can login with Username and Password to sign into the app.
 
 ### '/dashboard' the dashboard route is private route for signed up users (and demo)
 
-![Landing](screenshots/LandingPage.png)
+![Landing]()
 
 This is where users are directed after sign up and login. Users now have full access to finding dogwalkers, available times, and make an appointment.
 
@@ -71,7 +71,7 @@ This is where users are directed after sign up and login. Users now have full ac
 
 ### '/service' the service route is private route for signed up users (and demo)
 
-![Service](screenshots/ServiceMenu.png)
+![Service]()
 
 On this page, users view the prices for dog walking for one dog or multiple dogs.
 
@@ -79,7 +79,7 @@ On this page, users view the prices for dog walking for one dog or multiple dogs
 
 ### '/walkers' the Walkers route is private route for signed up users (and demo)
 
-![Walkers](screenshots/Walkers.png)
+![Walkers]()
 
  On this page, users view the available dogwalkers in their area. 
 
