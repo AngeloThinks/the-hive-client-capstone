@@ -103,7 +103,7 @@ export default class EngineerProfile extends Component {
                         <div role='alert'>
                             {error && <p className='error'>{error}</p>}
                         </div>
-                        <button className='submit-haircut' type='submit'>Review/Book</button>
+                        <button className='submit-engineer' type='submit'>Review/Book</button>
                     </form>}
                 </section>
             </div>

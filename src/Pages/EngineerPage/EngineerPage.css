@@ -1,7 +1,7 @@
 
 .Engineer-section{
     color: var(--white);
-    background-color:var(--blackish);
+    background-color:black;
     display:flex;
     padding-top:70px;
     flex-direction: column;

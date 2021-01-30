@@ -8,7 +8,6 @@ export default class EngineerPage extends Component {
         return (
             <div className='profile-container'>
                 <section className='Engineer-section'>
-
                     <h1>Get Your Music Out to the People</h1>
                     <p> We have a team of very talented individuals to accommodate you!</p>
                     <p>Our team provides you with years of experience in the music industry.</p>
