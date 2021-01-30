@@ -36,7 +36,7 @@ export default class ServiceMenuPage extends Component {
         return (
             <div className='ServiceMenu-container'>
                 <section className='Service-menu-list'>
-                <h1> Service Menu </h1>
+                <h1> Audio Services </h1>
                     {this.state.error ?
                     <Spinner error={this.state.error}/> :
               <ServiceList {...this.state}/>}
@@ -45,3 +45,5 @@ export default class ServiceMenuPage extends Component {
         )
     }
 }
+
+

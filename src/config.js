@@ -1,6 +1,6 @@
-// eslint-disable-next-line import/no-anonymous-default-export
+/* eslint-disable import/no-anonymous-default-export */
 export default {
-    API_ENDPOINT:'https://still-beach-15192.herokuapp.com',
+    API_ENDPOINT:'https://still-beach-15192.herokuapp.com/hiveapi',
     TOKEN_KEY: 'spaced-repetition-jwt-secret'
 }
 
