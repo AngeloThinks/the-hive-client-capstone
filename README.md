@@ -47,7 +47,7 @@ This is the first page users will land on. Where they can see a demo of our site
 
 ### '/register' sign up page route
 
-![Register]()
+![Register](screenshots/register.png)
 
 This is where users can sign up in order to get an authenticated JWT to access the entire website.  If they try access another route without an authenticated JWT they will be redirected back to the login page.
 
@@ -55,7 +55,7 @@ This is where users can sign up in order to get an authenticated JWT to access t
 
 ### '/login' login page route 
 
-![Login]()
+![Login](screenshots/login-screen.png)
 
 This is where users can login with Username and Password to sign into the app.
 
@@ -63,7 +63,7 @@ This is where users can login with Username and Password to sign into the app.
 
 ### '/dashboard' the dashboard route is private route for signed up users (and demo)
 
-![Landing]()
+![Landing](screenshots/home-logout-screen.png)
 
 This is where users are directed after sign up and login. Users now have full access to finding Audio Engineers, available times, and make an appointment.
 
