@@ -12,7 +12,7 @@ export default function LandingPage() {
         <section className='title'>
         <h1> The Hive</h1>
         <h3> Taking care of your Audio Engineering services!</h3>
-        <h2> Demo credentials : demouser/demopassworD1! </h2>
+        {/* <h3> Demo credentials : demouser/demopassworD1! </h3> */}
         <p>
         We are Audio Engineers and Produces that help musicians get their music out to the people! <br />
         Once logged in you'll be able to select from one of our Audio Engineers.
