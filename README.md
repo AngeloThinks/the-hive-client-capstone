@@ -2,11 +2,11 @@
 
 ---------------------------------------------------------------------------------
 
- Live Demo: 
+ [Live Demo]()
 
- Server Repo: 
+ [Server Repo](https://github.com/AngeloThinks/the-hive-server-capstone.git)
  
- Client Repo: 
+ [Client Repo](https://github.com/AngeloThinks/the-hive-client-capstone.git)
  
 user_name: 'demouser',
 password: 'demopassworD1!'
