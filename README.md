@@ -39,7 +39,7 @@ The Hive is a service for musicians that are too busy to do it all. There's prod
 
 ### '/' the Landing page route
 
-![Landing]()
+![Landing](home-logout-screen.png)
 
 This is the first page users will land on. Where they can see a demo of our site, sign up, and log in.
 
@@ -47,7 +47,7 @@ This is the first page users will land on. Where they can see a demo of our site
 
 ### '/register' sign up page route
 
-![Register](screenshots/Register.png)
+![Register]()
 
 This is where users can sign up in order to get an authenticated JWT to access the entire website.  If they try access another route without an authenticated JWT they will be redirected back to the login page.
 
@@ -65,39 +65,39 @@ This is where users can login with Username and Password to sign into the app.
 
 ![Landing]()
 
-This is where users are directed after sign up and login. Users now have full access to finding dogwalkers, available times, and make an appointment.
+This is where users are directed after sign up and login. Users now have full access to finding Audio Engineers, available times, and make an appointment.
 
 ---------------------------------------------------------------------------------
 
 ### '/service' the service route is private route for signed up users (and demo)
 
-![Service]()
+![Service](screenshots/service-screen.png)
 
-On this page, users view the prices for dog walking for one dog or multiple dogs.
+On this page, users view the prices for song mastering for one song or multiple songs.
 
 ---------------------------------------------------------------------------------
 
-### '/walkers' the Walkers route is private route for signed up users (and demo)
+### '/Engineers' the Engineers route is private route for signed up users (and demo)
 
-![Walkers]()
+![Engineers](screenshots/engineer-page.png)
 
- On this page, users view the available dogwalkers in their area. 
+ On this page, users view the available Engineers. 
 
  ---------------------------------------------------------------------------------
 
 ### '/booking' the Booking route is private route for signed up users (and demo)
 
-![Booking](screenshots/Booking.png)
+![Booking](screenshots/booking-screen.png)
 
- On this page, users select the amount of dogs to walk, and the time they need to be walked and book their appointment.
+ On this page, users select the amount of songs to master, and the time they need to be mastered and book their appointment.
 
  --------------------------------------------------------------------------------- 
 
 ### '/profile' the Profile route is private route for signed up users 
 
-![Profile](screenshots/Profile.png)
+![Profile](screenshots/profile.png)
 
- On this page, users view their profile, which is their selected Time, Walker, and Service.  
+ On this page, users view their profile, which is their selected Time, Engineer, and Service.  
 
 
 
