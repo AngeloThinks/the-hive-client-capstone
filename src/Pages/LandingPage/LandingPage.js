@@ -11,10 +11,10 @@ export default function LandingPage() {
         {TokenService.hasAuthToken() ? <Redirect to="/homePage" /> : <></>}
         <section className='title'>
         <h1> The Hive</h1>
-        <h3>Some features may not be available in demo mode</h3>
-        {/* <h3> Demo credentials : demouser/demopassworD1! </h3> */}
+        {/* <h3>Some features may not be available in demo mode</h3> */}
+        
         <p>
-        We are Audio Engineers and Produces that help musicians get their music out to the people! <br />
+        We are Audio Engineers and Producers that help musicians get their music out to the people! <br />
         Once logged in you'll be able to select from one of our Audio Engineers.
         Just select the name of the Engineer, pick your Service and Time, then check your profile.
         Your appointment will be updated! So Login or Sign up and we can take care of your incomplete albums!
