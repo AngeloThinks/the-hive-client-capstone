@@ -10,8 +10,8 @@ footer{
 .footer-container ul {
     color:var(--white);
     padding: 0;
-    /* justify-content: center; */
+    justify-content: center;
     list-style: none;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 } 

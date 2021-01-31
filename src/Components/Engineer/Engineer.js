@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default class Engineer extends Component {
 
     render() {
@@ -11,7 +12,7 @@ export default class Engineer extends Component {
                     <Link to={`/EngineersProfile/${engineer.id}`}>
                         {engineer.first_name}
                     </Link>
-                    <h4>Available next day</h4>
+                    <h2>Available next day</h2>
                     <p>Next day @ 7 a.m</p>
                 </li>
             </div>

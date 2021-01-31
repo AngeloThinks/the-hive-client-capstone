@@ -4,15 +4,21 @@
 }
 .user-profile-section h1{
     color: var(--white);
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
     padding: 77px 10px 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
 }
 .user-profile-section h2{
     color: white;
     font-size: 32px;
     margin: 0;
     padding: 25px 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
 }
 .user-Table{
     padding: 0 10px;
@@ -27,6 +33,9 @@
     color: white;
     text-align: left;
     text-decoration: underline;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
 }
 .user-Table td{
     font-size:20px;
