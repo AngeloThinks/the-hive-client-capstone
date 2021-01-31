@@ -11,7 +11,7 @@ export default function LandingPage() {
         {TokenService.hasAuthToken() ? <Redirect to="/homePage" /> : <></>}
         <section className='title'>
         <h1> The Hive</h1>
-        <h3> Taking care of your Audio Engineering services!</h3>
+        <h3>Some features may not be available in demo mode</h3>
         {/* <h3> Demo credentials : demouser/demopassworD1! </h3> */}
         <p>
         We are Audio Engineers and Produces that help musicians get their music out to the people! <br />
