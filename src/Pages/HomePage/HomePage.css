@@ -73,7 +73,7 @@
       color: rgba(255, 0, 0, 0.502);
 }
 
-@media screen and (max-width:
+/* @media screen and (max-width:
 991px) {
     .title{
         color: white;
@@ -110,9 +110,9 @@
         line-height: 1.4;
     }
 
-}
+} */
 
-@media screen and (max-width: 
+/* @media screen and (max-width: 
 768px) {
     .title{
         color: white;
@@ -148,4 +148,4 @@
         font-size: 12px;
         line-height: 1.4;
     }
-}
+} */
