@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import {FaFacebook,FaInstagram,FaLinkedin,} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiAudioboom } from "react-icons/si";
 // import { button } from "../button";
 
@@ -36,22 +36,22 @@ function Footer() {
           </div> */}
           <div className="footer-link-items">
             {/* <h2>Contact Me</h2> */}
-            <a href="mailto:angelogvazquez@gmail.com?subject='Hello'">
+            {/* <a href="mailto:angelogvazquez@gmail.com?subject='Hello'">
               Contact
             </a>
             <a href="mailto:angelogvazquez@gmail.com?subject='Hello'">
               Support
-            </a>
+            </a> */}
           </div>
         </div>
-        <div className="footer-link-wrapper">
+        {/* <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            {/* <h2>Social Media</h2> */}
-            {/* <Link to="/">LinkedIn</Link>
-            <Link to="/">Facebook</Link> */}
-            {/* <Link to="/">Instagram</Link> */}
+            <h2>Social Media</h2>
+            <Link to="/">LinkedIn</Link>
+            <Link to="/">Facebook</Link>
+            <Link to="/">Instagram</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <section className="social-media">
         <div className="social-media-wrap">

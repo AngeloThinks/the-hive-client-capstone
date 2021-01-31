@@ -51,6 +51,7 @@ export default function LoginForm(props) {
                 <label className='userName'>
                     User Name
                     </label>
+                    <h4>demo credentials: user: juan password: Juan1234!</h4>
                 <input
                     type='text'
                     placeholder='user'

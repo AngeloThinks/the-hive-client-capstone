@@ -8,8 +8,8 @@
  
  [Client Repo](https://github.com/AngeloThinks/the-hive-client-capstone.git)
  
-user_name: 'user',
-password: 'User1234!'
+user_name: 'new2',
+password: 'New21234!'
 
 ---------------------------------------------------------------------------------
 ## About:
