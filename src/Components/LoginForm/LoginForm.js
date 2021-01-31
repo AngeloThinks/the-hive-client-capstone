@@ -53,7 +53,7 @@ export default function LoginForm(props) {
                     </label>
                 <input
                     type='text'
-                    placeholder='enter user name'
+                    placeholder='user'
                     name='user_name'
                     value={user_name}
                     onChange={e => setUser_name(e.target.value)}
@@ -64,7 +64,7 @@ export default function LoginForm(props) {
                 </label>
                 <input
                     type='password'
-                    placeholder='enter user password'
+                    placeholder='User1234!'
                     name='password'
                     value={password}
                     onChange={e => setPassword(e.target.value)}
